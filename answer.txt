@@ -1,0 +1,21 @@
+Task 3: Python
+
+Shebang meaning: 
+The shebang line #!/usr/bin/env python3 tells the system which interpreter to use to execute the script. It allows the script to run directly from the terminal without explicitly calling 'python'.
+
+Command to run without typing python:
+chmod +x hello.py
+./hello.py
+
+Task 4: C
+
+Reason C requires compilation:
+C is a compiled language. The source code must be converted into machine code by a compiler before it can run, unlike Python which is interpreted and can run directly.
+
+Command to compile and run:
+gcc hello.c -o hello
+./hello
+
+Interpreter vs Compiler:
+- Interpreter (Python): Executes code line by line at runtime.
+- Compiler (C): Translates entire source code into machine code before execution.
